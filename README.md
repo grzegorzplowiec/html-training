@@ -1,4 +1,1 @@
 #### html-training
-
-
-Zmiana

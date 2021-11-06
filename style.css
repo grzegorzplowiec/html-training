@@ -1,0 +1,53 @@
+/*style tabeli*/
+
+table
+{
+    border: 1px solid black;
+    width: 100%;
+}
+
+td
+{
+    border: 1px solid black;
+}
+
+#navbar
+{
+    height: 100px;
+    text-align: center;
+}
+
+#content
+{
+    width: auto;
+    height: 500px;
+    vertical-align: top;
+    text-align: justify;
+    display: table-cell;
+}
+
+#sidemenu 
+{
+    width: 150px;
+}
+
+#akapit1, #akapit2
+{
+    width: 45%;
+}
+
+#akapit1
+{
+    float: left;
+}
+
+#akapit2
+{
+    float: right;
+}
+
+#footer
+{
+    height: 150px;
+    text-align: center;
+}

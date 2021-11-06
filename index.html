@@ -1,12 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta name="description" content="opis strony">
+    <meta name="keywords" content="słowo kluczowe1, słowo klucz2,..." />
+    <meta name="author" content="Autor strony" />
+    <title>Nazwa strony na nagłówku</title>
 </head>
+
 <body>
-    
+    <!-- Tu jest początek tabeli -->
+    <table>
+        <caption>Nagłówek tabeli</caption>
+        <thead>
+            <tr>
+                <th>Lewa strona</th>
+                <th>prawa strona</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td colspan="2" align="center">Wszelkie prawa zastrzeżone!</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td id="navbar" colspan="2">Menu górne</td>
+            </tr>
+            <tr>
+                <td id="content">
+                    <p id="akapit1"><q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a velit felis. In
+                            eu convallis
+                            sapien.
+                            Phasellus blandit, nisl in efficitur mattis, lorem augue eleifend est, at rhoncus felis ex a
+                            nibh.
+                            Fusce
+                            ut sapien id felis congue suscipit a nec turpis. Cras eget euismod enim. Donec ac tempor
+                            felis,
+                            vitae
+                            accumsan lacus. Quisque sed tristique diam. Suspendisse ac ornare est. Pellentesque nulla
+                            lorem,
+                            vulputate et elit at, accumsan fringilla turpis. Pellentesque faucibus nibh eget sem
+                            tincidunt,
+                            quis
+                            sagittis elit mattis.</q>
+                    </p>
+                    <p id="akapit2">
+                        Aenean varius, augue ut rutrum placerat, massa felis sagittis urna, ut vulputate nisi dolor ut
+                        ex.
+                        Maecenas ultricies vitae orci ut sollicitudin. In a urna pretium, hendrerit tortor ut, vulputate
+                        metus.
+                        Morbi pellentesque nunc arcu, nec viverra eros gravida at. Quisque facilisis semper nunc, sit
+                        amet
+                        semper nulla volutpat at. Maecenas sodales turpis in lectus iaculis vestibulum. Etiam ornare
+                        facilisis
+                        sem id auctor. Curabitur eu ipsum eu purus commodo consequat. Aliquam rutrum hendrerit lacus, at
+                        eleifend ipsum. Nulla lacinia dignissim velit, id semper est tincidunt faucibus. Nullam viverra
+                        elit
+                        sem, in fringilla orci consequat ac. Nunc id finibus eros, quis sollicitudin sem. Phasellus
+                        elementum
+                        fermentum tincidunt.
+                    </p>
+                </td>
+                <td id="sidemenu">
+                    <ul>
+                        <li>link</li>
+                        <li>link</li>
+                        <li>link</li>
+                        <li>link</li>
+                        <li>link</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td id="footer" colspan="2">Stopka strony</td>
+            </tr>
+        </tbody>
+        <tfoot></tfoot>
+    </table>
 </body>
+
 </html>
